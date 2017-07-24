@@ -1,0 +1,16 @@
+<html>
+  <body>  
+      <form>
+     <input type="text" class="form-control" id="search" placeholder="Request #">
+     <button type="submit" class="btn btn-default" id="WFF">Submit</button>
+      </form>
+      <script>
+var button = document.getElementById("WFF");
+
+button.onclick = function () {
+    var text = document.getElementById("search").value;
+    window.open("https://www.google.co.in/#q=" + text );
+}
+</script>
+</body>
+</html>
