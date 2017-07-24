@@ -88,7 +88,7 @@ document.getElementById('if').src="http://localhost:9090/ViewServlet";
 		</div>
 
 
-<iframe name='if' id="if"  height="300px" width="1200px">
+<iframe name='if' id="if"  height="300px" width="1330px">
 
 </iframe>
 
