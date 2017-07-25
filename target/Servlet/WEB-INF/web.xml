@@ -5,7 +5,7 @@
     <web-app>  
         
     <welcome-file-list>  
-        <welcome-file>Check.jsp</welcome-file>  
+        <welcome-file>Login.jsp</welcome-file>  
     </welcome-file-list>  
       
     </web-app>  
