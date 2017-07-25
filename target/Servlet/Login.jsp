@@ -38,7 +38,7 @@
       <a class="navbar-brand" href="#"><img src="fav.jpg" width="50" height="50"></a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
+      <li class="active"><a href="Home.jsp">Home</a></li>
      
     </ul>
    <a href="Login_Ex.jsp" <button class="btn btn-info navbar-btn">Sign In</button></a>

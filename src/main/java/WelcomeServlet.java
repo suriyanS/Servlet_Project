@@ -15,7 +15,7 @@ public void doPost(HttpServletRequest request, HttpServletResponse response)
     PrintWriter out = response.getWriter();  
           
     String n=request.getParameter("username");  
-    out.print("Welcome To Our Event <a href='Login.jsp'>Home</a>");  
+    out.print("Welcome To Our Event <a href='Home.jsp'>Home</a><a href='Login.jsp'>Logout</a>");  
           
     out.close();  
     }  

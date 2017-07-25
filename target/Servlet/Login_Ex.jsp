@@ -10,31 +10,47 @@
 
 <style>
 .login{
+    
     border: 10px solid skyblue;
-    margin-top:25px;
-    margin-left:500px;
+    margin-top:150px;
+    margin-left:400px;
     padding:50px;
-    width:300px;
+    width:600px;
+    background-color:white;
 }
-
+.bt{
+    width:150px;
+}
+body {
+    background-image: url("http://www.whizjuniors.com/Content/img/banner.jpg");
+}
+select{
+    width:150px;
+}
 </style>
 
    </head>
 
-<div class="login">
+<body>
+<div class="login" align="center">
 
     <form action="LoginValidation" method="post">  
-    User Name:<input type="text" name="username"/><br/><br/>  
-    Password:<input type="password" name="userpass"/><br/><br/>  
-   <label name="user">user: </label>
+    <label for="username">User Name:</label>
+   <input type="text" name="username" id="username"/><br/><br/> 
+   <label for="username">Password:</label> 
+    <input type="password" name="userpass"/><br/><br/>  
+
+   <label name="user">User: </label>
 					<select name='user'>  
      
     <option>Existing User</option>  
     <option>Admin</option>  
     </select>  
-    <input type="submit" value="Sign in"/>  
+    <br/><br/>
+      <button type="submit" class="btn btn-primary bt">Sign in</button> 
     
     </form>  
 
     </div>
+    </body>
     </html>

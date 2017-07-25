@@ -23,4 +23,5 @@ admin_SaveServlet$1.class
 EditServlet.class
 ViewServlet.class
 Sample.class
+CheckServlet.class
 WelcomeServlet.class

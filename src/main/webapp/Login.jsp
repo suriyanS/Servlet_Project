@@ -11,7 +11,7 @@
 <style>
 .signup{
   margin-left:400px;
-  margin-top:50px;
+  margin-top:135px;
   padding:25px;
   width:500px;
   border: 10px solid skyblue;
@@ -22,7 +22,7 @@
 			text-align: center;
 		}
   .bts{
-    margin-left:200px;
+    margin-left:190px;
   }
   .btc{
     margin-left:15px;
@@ -37,10 +37,10 @@
     <div class="navbar-header">
       <a class="navbar-brand" href="#"><img src="fav.jpg" width="50" height="50"></a>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
+    
+      <a href="Home.jsp"> <button class="btn btn-success">Home</button></a></li>
      
-    </ul>
+
    <a href="Login_Ex.jsp" <button class="btn btn-info navbar-btn">Sign In</button></a>
   </div>
 </nav>
@@ -48,17 +48,17 @@
 <div class="signup">
 <form method="POST" action="Login_NewStore" onsubmit="return checkForm(this);">
 
-<h2>Sign up for Event</h2>
-<label>Username: <input title="Enter your username" required type="text" required pattern="\w+" name="username" placeholder="Create Username"></label>
+
+<label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Username: <input title="Enter your username" required type="text" required pattern="\w+" name="username" placeholder="Create Username"></label>
 <br/>
-<label>Password: &nbsp; &nbsp; &nbsp; <input title="Password must contain at least 6 characters, including UPPER/lowercase and numbers" placeholder="Create Password"type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="pwd1" onchange="
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Password: <input title="Password must contain at least 6 characters, including UPPER/lowercase and numbers" placeholder="Create Password"type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="pwd1" onchange="
   this.setCustomValidity(this.validity.patternMismatch ? this.title : '');
   if(this.checkValidity()) form.pwd2.pattern = this.value;
 "></label>
-<br/>
+<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 <label>Confirm Password: <input title="Please enter the same Password as above" placeholder="Confirm Password"type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="pwd2" onchange="
   this.setCustomValidity(this.validity.patternMismatch ? this.title : '');
-"></label>
+"></label> </br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/>
 <button type="submit" class="btn btn-success btn-md bts">Sign Up</button>
 
 <button type="reset" class="btn btn-danger btn-md btc">Cancel</button>
