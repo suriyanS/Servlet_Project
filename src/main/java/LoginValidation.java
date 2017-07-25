@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServlet;
         String p=request.getParameter("userpass");  
         String u=request.getParameter("user"); 
         //if(u=="Admin") {    
-        if(LoginDao.validateAdmin(n,p,u)){  
+        if(LoginDao.validateAdmin(n,p)){  
             RequestDispatcher rd=request.getRequestDispatcher("eventregister.jsp");  
             rd.forward(request,response);  
         }  

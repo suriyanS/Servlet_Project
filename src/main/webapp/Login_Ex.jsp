@@ -34,18 +34,12 @@ select{
 <body>
 <div class="login" align="center">
 
-    <form action="LoginValidation" method="post">  
+    <form action="eventregister.jsp" method="post">  
     <label for="username">User Name:</label>
    <input type="text" name="username" id="username"/><br/><br/> 
    <label for="username">Password:</label> 
     <input type="password" name="userpass"/><br/><br/>  
 
-   <label name="user">User: </label>
-					<select name='user'>  
-     
-    <option>Existing User</option>  
-    <option>Admin</option>  
-    </select>  
     <br/><br/>
       <button type="submit" class="btn btn-primary bt">Sign in</button> 
     
