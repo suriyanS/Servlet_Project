@@ -5,8 +5,8 @@
 
 ## Description :
 
- This is the Simple Web Project Using Servlet and Jsp Pages Developed for Event registration Form.
- Here I Use Simple Email Function to send mail to the registered Users and I have used Filter and Session Concepts for authentication purpose.
+ This is the simple Web Project using Servlet and Jsp Pages developed for Event registration Form.
+ Here I Use simple Email function to send mail to the registered Users and I have used Filter and Session Concepts for authentication purpose.
 
 ### Requirements
 
@@ -31,7 +31,7 @@ ___
 * EditServlet2
 * ViewServlet
 * DeletServlet
-* admin_SaveSevlet
+* admin_SaveServlet
 * WelcomeServlet
 * MyFilter
 
@@ -1102,7 +1102,7 @@ ___
 ___
 
 
-## 11.admin_SaveSevlet.java 
+## 11.admin_SaveServlet.java 
 
 
 ```sh
