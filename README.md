@@ -118,7 +118,7 @@ ___
 </html> 
 ```
 
-
+___
 
 ## 2.Login_EX.jsp :
 
@@ -175,6 +175,7 @@ select{
     </body>
     </html>
 ```
+___
 
 ## 3.Log_Error.jsp :
 
@@ -232,6 +233,8 @@ h5{color:red;}
     </body>
     </html>
 ```
+___
+
 ## 4.eventregister.jsp :
 ```sh
 
@@ -344,6 +347,8 @@ document.getElementById('if').src="http://localhost:9090/ViewServlet";
 
 </html>
 ```
+___
+
 ## 5.userEventRegistration :
 ```sh
 
@@ -456,8 +461,14 @@ document.getElementById('if').src="http://localhost:9090/ViewServlet";
 
 </html>
 ```
+___
+
 
 ### .java
+
+___
+
+
 ## 1.pojoEvent.java:
 ```sh
     public class pojoEvent {  
@@ -515,6 +526,10 @@ document.getElementById('if').src="http://localhost:9090/ViewServlet";
     
     }  
 ```
+
+___
+
+
 ## 2.EventDao.jsp
 ```sh
     import java.util.*;  
@@ -636,6 +651,10 @@ document.getElementById('if').src="http://localhost:9090/ViewServlet";
         }  
     }  
 ```
+
+___
+
+
 ## 3.LoginDao.java
 ```sh
 import java.sql.*;  
@@ -686,6 +705,10 @@ return status;
 }  
 }
 ```
+
+___
+
+
 ## 4.Login_NewStore.java
 ```sh
 import java.io.*;  
@@ -742,6 +765,10 @@ out.close();
   
 }
 ```
+
+___
+
+
 ## 5.Logout.java
 ```sh
     import java.io.IOException;  
@@ -771,6 +798,10 @@ out.close();
         }  
     }  
 ```
+
+___
+
+
 ## 6.SaveServlet.java
 ```sh
 import java.io.IOException;  
@@ -873,6 +904,10 @@ out.println("event registered successfully");
   
 
 ```
+
+___
+
+
 ## 7.EditServlet.java:
 ```sh
     import java.io.IOException;  
@@ -920,6 +955,10 @@ out.println("event registered successfully");
         }  
     }  
 ```
+
+___
+
+
 ## 8.EditServlet2.java :
 ```sh
     import java.io.IOException;  
@@ -969,6 +1008,10 @@ out.println("event registered successfully");
       
     }  
 ```
+
+___
+
+
 ## 9.ViewServlet.java :
 ```sh
     import java.io.IOException;  
@@ -1003,6 +1046,10 @@ out.println("event registered successfully");
         }  
     }  
 ```
+
+___
+
+
 ## 10.DeletServlet.java
 ```sh
     import java.io.IOException;  
@@ -1022,6 +1069,10 @@ out.println("event registered successfully");
         }  
     }  
 ```
+
+___
+
+
 ## 11.admin_SaveSevlet.java 
 ```sh
 import java.io.IOException;  
@@ -1122,9 +1173,11 @@ out.println("event registered successfully");
 
     }  
   
-
-
 ```
+
+___
+
+
 ## 12.WelcomeServlet.java :
 ```sh
 import java.io.IOException;  
@@ -1151,6 +1204,10 @@ public void doPost(HttpServletRequest request, HttpServletResponse response)
   
 }
 ```
+
+
+___
+
 
 ## 13.MyFilter.java
 ```sh
@@ -1202,6 +1259,8 @@ import javax.servlet.http.HttpServletResponse;
       
     }  
 ```
+
+___
 
 
 ## Screen Shots:
