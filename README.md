@@ -44,7 +44,7 @@ ___
 
 ## 1.Login.jsp :
 
- ### Code: 
+ 
 ```sh
   <html>
 <head>
@@ -122,7 +122,7 @@ ___
 
 ## 2.Login_EX.jsp :
 
-### Code:
+
 ```sh
     <html>
    <head>
@@ -179,7 +179,7 @@ ___
 
 ## 3.Log_Error.jsp :
 
-### Code:
+
  ```sh
     <html>
    <head>
@@ -236,6 +236,8 @@ h5{color:red;}
 ___
 
 ## 4.eventregister.jsp :
+
+
 ```sh
 
 
@@ -350,6 +352,8 @@ document.getElementById('if').src="http://localhost:9090/ViewServlet";
 ___
 
 ## 5.userEventRegistration :
+
+
 ```sh
 
 
@@ -464,12 +468,14 @@ document.getElementById('if').src="http://localhost:9090/ViewServlet";
 ___
 
 
-### .java
+### JAVA
 
 ___
 
 
 ## 1.pojoEvent.java:
+
+
 ```sh
     public class pojoEvent {  
     private int id;  
@@ -531,6 +537,8 @@ ___
 
 
 ## 2.EventDao.jsp
+
+
 ```sh
     import java.util.*;  
     import java.sql.*;  
@@ -656,6 +664,8 @@ ___
 
 
 ## 3.LoginDao.java
+
+
 ```sh
 import java.sql.*;  
   
@@ -710,6 +720,8 @@ ___
 
 
 ## 4.Login_NewStore.java
+
+
 ```sh
 import java.io.*;  
 import java.sql.*;  
@@ -770,6 +782,8 @@ ___
 
 
 ## 5.Logout.java
+
+
 ```sh
     import java.io.IOException;  
     import java.io.PrintWriter;  
@@ -803,6 +817,8 @@ ___
 
 
 ## 6.SaveServlet.java
+
+
 ```sh
 import java.io.IOException;  
 import java.io.PrintWriter;  
@@ -909,6 +925,8 @@ ___
 
 
 ## 7.EditServlet.java:
+
+
 ```sh
     import java.io.IOException;  
     import java.io.PrintWriter;  
@@ -960,6 +978,8 @@ ___
 
 
 ## 8.EditServlet2.java :
+
+
 ```sh
     import java.io.IOException;  
     import java.io.PrintWriter;  
@@ -1013,6 +1033,8 @@ ___
 
 
 ## 9.ViewServlet.java :
+
+
 ```sh
     import java.io.IOException;  
     import java.io.PrintWriter;  
@@ -1051,6 +1073,8 @@ ___
 
 
 ## 10.DeletServlet.java
+
+
 ```sh
     import java.io.IOException;  
     import javax.servlet.ServletException;  
@@ -1074,6 +1098,8 @@ ___
 
 
 ## 11.admin_SaveSevlet.java 
+
+
 ```sh
 import java.io.IOException;  
 import java.io.PrintWriter;  
@@ -1179,6 +1205,8 @@ ___
 
 
 ## 12.WelcomeServlet.java :
+
+
 ```sh
 import java.io.IOException;  
 import java.io.PrintWriter;  
@@ -1210,6 +1238,8 @@ ___
 
 
 ## 13.MyFilter.java
+
+
 ```sh
     import java.io.IOException;  
     import java.io.PrintWriter;  
