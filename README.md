@@ -3,6 +3,11 @@
 
 # Event Registration Form
 
+## Description :
+
+ This is the simple Web Project using Servlet and Jsp Pages developed for Event registration Form.
+ Here I Use simple Email function to send mail to the registered Users and I have used Filter and Session Concepts for authentication purpose.
+
 ### Requirements
 
 ### JSP
@@ -26,7 +31,7 @@ ___
 * EditServlet2
 * ViewServlet
 * DeletServlet
-* admin_SaveSevlet
+* admin_SaveServlet
 * WelcomeServlet
 * MyFilter
 
@@ -1097,7 +1102,7 @@ ___
 ___
 
 
-## 11.admin_SaveSevlet.java 
+## 11.admin_SaveServlet.java 
 
 
 ```sh
@@ -1294,10 +1299,90 @@ ___
 
 
 ## Screen Shots:
-### RegistrationForm
-![alt text](https://raw.githubusercontent.com/suriyanS/Learning/master/Registration%20form.png "Logo Title Text 1")
-## Succesful Message:
-![alt text](https://raw.githubusercontent.com/suriyanS/Learning/master/Succesful%20Message.png "Logo Title Text 1")
+## Sign up
+![alt text](https://raw.githubusercontent.com/suriyanS/Servlet_Project/master/ScreenShots/Sign%20up.png "Logo Title Text 1")
 
-## Database Storage:
-![alt text](https://raw.githubusercontent.com/suriyanS/Learning/master/Stored%20In%20Db.png "Logo Title Text 1")
+___
+___
+
+## User Registration Form:
+![alt text](https://raw.githubusercontent.com/suriyanS/Servlet_Project/master/ScreenShots/User%20Registration%20Form.png "Logo Title Text 1")
+
+___
+___
+
+
+## Record saved:
+![alt text](https://raw.githubusercontent.com/suriyanS/Servlet_Project/master/ScreenShots/Record%20Saved.png "Logo Title Text 1")
+
+___
+___
+
+
+## Email Send to the Registered User:
+![alt text](https://raw.githubusercontent.com/suriyanS/Servlet_Project/master/ScreenShots/email.png "Logo Title Text 1")
+
+
+___
+___
+
+
+
+## Sign out:
+![alt text](https://raw.githubusercontent.com/suriyanS/Servlet_Project/master/ScreenShots/Sign%20out.png "Logo Title Text 1")
+
+
+___
+___
+
+
+
+## Sign in :
+![alt text](https://raw.githubusercontent.com/suriyanS/Servlet_Project/master/ScreenShots/Sign%20in.png "Logo Title Text 1")
+
+
+___
+___
+
+
+## Record manage by admin :
+![alt text](https://raw.githubusercontent.com/suriyanS/Servlet_Project/master/ScreenShots/Record%20management-Admin.png "Logo Title Text 1")
+
+___
+___
+
+
+## Edit by admin :
+![alt text](https://raw.githubusercontent.com/suriyanS/Servlet_Project/master/ScreenShots/Edit%20by%20Admin.png "Logo Title Text 1")
+
+___
+___
+
+
+## Delete by admin :
+![alt text](https://raw.githubusercontent.com/suriyanS/Servlet_Project/master/ScreenShots/After%20Delete%20by%20Admin.png "Logo Title Text 1")
+
+___
+___
+
+
+
+## Home :
+![alt text](https://raw.githubusercontent.com/suriyanS/Servlet_Project/master/ScreenShots/Home.png "Logo Title Text 1")
+
+___
+___
+
+
+## Future Enhancements:
+___
+
+* Add Forgot Password Option
+
+* Add Change Password Option
+
+* Enhance  Email Function in more secured manner
+
+* Enhance Web Pages 
+
+
