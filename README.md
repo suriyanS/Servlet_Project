@@ -1,39 +1,44 @@
 # Servlet_Project
+___
 
 # Event Registration Form
+
 ### Requirements
 
-### .Jsp
-1.Login
-2.Login_EX
-3.Log_Error
-4.eventregister
-5.userEventRegistration
-6.Home
+### JSP
+___
+* Login
+* Login_EX
+* Log_Error
+* eventregister
+* userEventRegistration
+* Home
 
-### .java
-1.pojoEvent
-2.EventDao
-3.LoginDao
-4.Login_NewStore
-5.Logout
-6.SaveServlet
-7.EditServlet
-8.EditServlet2
-9.ViewServlet
-10.DeletServlet
-11.admin_SaveSevlet
-12.WelcomeServlet
-13.MyFilter
+### JAVA
+___
+* pojoEvent
+* EventDao
+* LoginDao
+* Login_NewStore
+* Logout
+* SaveServlet
+* EditServlet
+* EditServlet2
+* ViewServlet
+* DeletServlet
+* admin_SaveSevlet
+* WelcomeServlet
+* MyFilter
 
-### .sql
+### SQL
+___
 #### Db
-1.adminlogin
-2.event_form
+* adminlogin
+* event_form
 #### Tables
-1.admin_login
-2.ex_user_login
-3.eventform
+* admin_login
+* ex_user_login
+* eventform
 
 ## Code:
 
