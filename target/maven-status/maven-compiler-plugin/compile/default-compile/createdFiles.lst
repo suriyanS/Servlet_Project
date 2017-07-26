@@ -22,6 +22,7 @@ MyFilter.class
 Event.class
 admin_SaveServlet$1.class
 EditServlet.class
+Logout.class
 ViewServlet.class
 Sample.class
 CheckServlet.class

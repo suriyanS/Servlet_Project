@@ -16,7 +16,7 @@
 	<style>
 		.well {
 			background-color: #3d40db;
-			text-align: center;
+			padding-left:400px;
 			font-size: 30px;
 			color: white;
 		}
@@ -31,6 +31,9 @@
 			width: 140px;
 			text-align: center;
 		}
+		.out{
+			margin-left:300px;
+		}
 	</style>
 	
 
@@ -39,7 +42,10 @@
 <body onload='onload();'>
 	<div class='container-fluid'>
 		<br/>
-		<div class='well'>Event Registration</div>
+		<div class='well'>Event Registration
+		<a href="/Logout"><button class="btn btn-danger out">Sign Out</button></a>
+		</div>
+		 
 		<br/>
 
 		<div class='jumbotron'>

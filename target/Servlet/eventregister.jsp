@@ -31,6 +31,9 @@
 			width: 140px;
 			text-align: center;
 		}
+			.out{
+			padding-right:100px;
+		}
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -47,7 +50,11 @@ document.getElementById('if').src="http://localhost:9090/ViewServlet";
 <body onload='onload();'>
 	<div class='container-fluid'>
 		<br/>
-		<div class='well'>Event Registration</div>
+		<div class='well'>Event Registration-Admin Home
+		
+		<a href="/Logout"><button class="btn btn-danger out">Sign Out</button></a>
+		
+		</div>
 		<br/>
 
 		<div class='jumbotron'>

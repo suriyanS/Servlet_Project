@@ -57,7 +57,7 @@ String toMail = request.getParameter("email");
 try {
 SaveServlet javaEmail = new SaveServlet();
 final String username = "suriyan.s@kggroup.com";
-final String password = "Suriyan@1234";
+final String password = "Suriyan@4321";
 Properties props = new Properties();
 props.put("mail.smtp.auth", "true");
 props.put("mail.smtp.starttls.enable", "false");

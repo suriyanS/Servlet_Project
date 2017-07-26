@@ -51,6 +51,7 @@ body, html {
   <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
   <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    <a href="/Logout"><button class="btn btn-danger">Sign Out</button></a>
 </nav>
 
 <!-- Header with full-height image -->
