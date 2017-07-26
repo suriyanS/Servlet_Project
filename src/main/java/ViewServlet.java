@@ -14,7 +14,7 @@
             response.setContentType("text/html");  
             PrintWriter out=response.getWriter();  
            // out.println("<a href='eventregister.jsp'>Add New User</a>");  
-            out.println("<h1>Users List</h1>");  
+            out.println("<h3>Users List</h3>");  
               
             List<pojoEvent> list=EventDao.getAllUsers();  
               out.print("<html>" );

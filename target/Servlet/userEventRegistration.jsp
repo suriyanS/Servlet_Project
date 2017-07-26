@@ -16,7 +16,7 @@
 	<style>
 		.well {
 			background-color: #3d40db;
-			text-align: center;
+			padding-left:400px;
 			font-size: 30px;
 			color: white;
 		}
@@ -32,7 +32,7 @@
 			text-align: center;
 		}
 		.out{
-			margin-right:50px;
+			margin-left:300px;
 		}
 	</style>
 	
@@ -93,7 +93,5 @@
 	</div>
 
 </body>
-<%
-    out.println(request.getAttribute("message"));
-%>
+
 </html>

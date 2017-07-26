@@ -93,7 +93,5 @@
 	</div>
 
 </body>
-<%
-    out.println(request.getAttribute("message"));
-%>
+
 </html>

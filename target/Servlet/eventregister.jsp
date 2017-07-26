@@ -16,7 +16,7 @@
 	<style>
 		.well {
 			background-color: #3d40db;
-			text-align: center;
+			padding-left:400px;
 			font-size: 30px;
 			color: white;
 		}
@@ -31,10 +31,14 @@
 			width: 140px;
 			text-align: center;
 		}
-			.out{
-			padding-right:100px;
-		}
+	.out{
+		margin-left:300px;
+	}
+
+
 	</style>
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
@@ -52,6 +56,7 @@ document.getElementById('if').src="http://localhost:9090/ViewServlet";
 		<br/>
 		<div class='well'>Event Registration-Admin Home
 		
+	
 		<a href="/Logout"><button class="btn btn-danger out">Sign Out</button></a>
 		
 		</div>
@@ -95,7 +100,7 @@ document.getElementById('if').src="http://localhost:9090/ViewServlet";
 		</div>
 
 
-<iframe name='if' id="if"  height="300px" width="1330px">
+<iframe name='if' id="if"  height="300px" width="1330px" frameborder="0">
 
 </iframe>
 

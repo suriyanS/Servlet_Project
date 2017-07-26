@@ -34,7 +34,11 @@
 	.out{
 		margin-left:300px;
 	}
+
+
 	</style>
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
@@ -96,7 +100,7 @@ document.getElementById('if').src="http://localhost:9090/ViewServlet";
 		</div>
 
 
-<iframe name='if' id="if"  height="300px" width="1330px">
+<iframe name='if' id="if"  height="300px" width="1330px" frameborder="0">
 
 </iframe>
 

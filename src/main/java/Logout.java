@@ -19,7 +19,7 @@
                 HttpSession session=request.getSession();  
                 session.invalidate();  
                   
-                out.print("You are successfully Signed out!");  
+                out.print("<h3>You are successfully Signed out!</h3>");  
                   
                 out.close();  
         }  
