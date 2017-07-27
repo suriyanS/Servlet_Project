@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:16:29:00 +0530] "GET / HTTP/1.1" 200 621 http-bio-9090-exec-1 886
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:16:29:04 +0530] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-9090-exec-3 0
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:16:29:04 +0530] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-9090-exec-4 0
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:16:29:18 +0530] "GET /CheckServlet HTTP/1.1" 200 48 http-bio-9090-exec-5 0
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:16:32:16 +0530] "GET /CheckServlet HTTP/1.1" 200 48 http-bio-9090-exec-7 0
