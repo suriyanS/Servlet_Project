@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 24, 2017 at 12:40 PM
+-- Generation Time: Jul 27, 2017 at 02:20 PM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 5.6.23
 
@@ -57,9 +57,16 @@ CREATE TABLE `ex_user_login` (
 
 INSERT INTO `ex_user_login` (`id`, `username`, `userpass`) VALUES
 (1, 'suriyan', 'Suriyan@2607'),
-(2, 'Deepika', 'Deepika@1234'),
-(3, 'Brighty', 'Brighty@2507'),
-(4, 'RajaRam', 'Rajaram@123');
+(2, 'Deepika', 'Deepika@4321'),
+(3, 'Deepika', 'Deepika@4321'),
+(4, 'Deepika', 'Deepika@4321'),
+(5, 'Deepika', 'Deepika@4321'),
+(6, 'Deepika', 'Deepika@4321'),
+(7, 'Deepika', 'Deepika@4321'),
+(8, 'suriyan', 'Suriyan@2607'),
+(9, 'Prakash', 'Prakash@4321'),
+(10, 'Prakash', 'Prakash@4321'),
+(11, 'Dhivya', 'Dhivya@1234');
 
 --
 -- Indexes for dumped tables
@@ -79,7 +86,7 @@ ALTER TABLE `ex_user_login`
 -- AUTO_INCREMENT for table `ex_user_login`
 --
 ALTER TABLE `ex_user_login`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

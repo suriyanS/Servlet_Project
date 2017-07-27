@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 24, 2017 at 12:41 PM
+-- Generation Time: Jul 27, 2017 at 02:20 PM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 5.6.23
 
@@ -42,12 +42,8 @@ CREATE TABLE `eventform` (
 --
 
 INSERT INTO `eventform` (`id`, `firstname`, `lastname`, `email`, `date`, `time`, `topic`, `location`) VALUES
-(1, 'Suriyan', 'S', 'suriyan.s@kggroup.com', '20/08/2017', '01:00', 'Big Data', 'Coimbatore'),
-(4, 'Brighty', 'M', 'brightymartina.m@kggroup.com', '21/08/2018', '01:00', 'Big Data', 'Coimbatore'),
-(5, 'Deepika', 'M', 'deepika.m@kggroup.com', '21/08/2018', '8.00', 'poS app', 'Bangalore'),
-(12, 'Deepika', 'M', 'deepika.m@kggroup.com', '14/07/2018', '9.00', 'kotlin', 'Bangalore'),
-(13, 'Brighty', 'R', 'brightymartina.m@kggroup.com', '14/07/2018', '8.00', 'poS app', 'Bangalore'),
-(14, 'Raja Ram', 'S', 'rajaram.s@kgfsl.com', '21/08/2018', '01.00', 'Kotlin', 'Coimbatore');
+(1, 'suriyan', 'S', 'suriyan.s@kggroup.com', '20/08/2017', '01:00', 'kotlin', 'Coimbatore'),
+(3, 'Prakash', 'S', 'prakash.s@kggroup.com', '14/07/2018', '8.00', 'Big Data', 'Bangalore');
 
 --
 -- Indexes for dumped tables
@@ -57,7 +53,8 @@ INSERT INTO `eventform` (`id`, `firstname`, `lastname`, `email`, `date`, `time`,
 -- Indexes for table `eventform`
 --
 ALTER TABLE `eventform`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `email` (`email`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -67,7 +64,7 @@ ALTER TABLE `eventform`
 -- AUTO_INCREMENT for table `eventform`
 --
 ALTER TABLE `eventform`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
